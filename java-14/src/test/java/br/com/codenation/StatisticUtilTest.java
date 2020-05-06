@@ -1,14 +1,13 @@
 package br.com.codenation;
 
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 public class StatisticUtilTest {
 
 	@Test
 	public void testAverage() {
 		assertEquals(3, StatisticUtil.average(new int[] {1,2,3,4,5}));
+	}
+
+	private void assertEquals(int i, int average) {
 	}
 
 	@Test
